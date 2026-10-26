@@ -9,7 +9,7 @@ ADD https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip /dist
 RUN cd /dist && unzip woocommerce.latest-stable.zip && rm woocommerce.latest-stable.zip
 
 
-FROM wordpress:php7.2
+FROM wordpress:php8.3
 
 WORKDIR /var/www/html/
 
